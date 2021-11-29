@@ -1,1 +1,27 @@
-/
+import java.lang.Math;
+
+public class limdometro {
+
+    public static void main(String[] args) {
+
+        int num = 0;
+
+        num = (int) Math.floor((Math.random() * 100) + 1);
+
+        if (num >= 0 && num <= 30) {
+
+            System.out.println("es " + num + "% lindo, lo lamento pero no estás tan lindx ;(");
+        }
+
+        if (num > 31 && num <= 65) {
+
+            System.out.println("es " + num + "% lindo, te falta un poquito para ser lindx pa");
+        }
+
+        if (num > 65) {
+
+            System.out.println("es " + num + "% lindo, estás muy lindx :D");
+        }
+
+    }
+}
